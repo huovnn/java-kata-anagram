@@ -103,8 +103,8 @@ public class Anagram {
                 filteredList.add(line);
             }
         }
-        
         printFilteredAmount(filteredList, originalWordList);
+        
         return filteredList;
     }
 

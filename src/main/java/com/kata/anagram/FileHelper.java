@@ -20,8 +20,6 @@ public class FileHelper {
        List<String> lines = new ArrayList<String>();
        
        try {
-          
-           
            BufferedReader reader = new BufferedReader(new java.io.FileReader("exp-words.txt"));
            
            String line = null;
